@@ -1,4 +1,4 @@
-FROM node:alpine AS base
+FROM node:16.11-alpine AS base
 
 ARG IMAGE_CREATION
 ARG IMAGE_VERSION
